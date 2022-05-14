@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajout d'une PFE{% endblock %}
+
+{% block PageTitle %} Remplir le formulaire pour ajouter une PFE{% endblock %}
+
+{% block body %}
+   {{ form_start(form)}}
+    {{ form_rest(form) }}
+    <div class="row">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+{% endblock %}

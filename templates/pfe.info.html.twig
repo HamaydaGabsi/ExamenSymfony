@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block title %} Ajout avec succés! {% endblock %}
+
+{% block PageTitle %} Le PFE a été ajouté avec succés{% endblock %}
+
+{% block body %}
+    <h1> Titre du PFE : {{ pfe.title }}</h1>
+    <h2>Nom du l'étudiant : {{ pfe.nomStudent }}</h2>
+    <h2>Entreprise: {{ pfe.entreprise }}</h2>
+{% endblock %}
+
+
